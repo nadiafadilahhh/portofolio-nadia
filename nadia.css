@@ -124,7 +124,7 @@ nav a.active{
 }
 .name-wrapper h1{
     font-size: 20rem;
-    font-weight: 9000;
+    font-weight: 900;
     line-height: 1;
     background: linear-gradient(
         180deg,
@@ -151,46 +151,13 @@ nav a.active{
     bottom: 50px;
     left: -25px;
 }
-.home-content h3{
-    color:var(--primary);
-    font-size:1.3rem;
-    margin-bottom:10px;
-}
 .home-content h1{
     font-size:5rem;
     font-weight:900;
     line-height:1;
-}
-.home-content h1{
     display: flex;
     flex-direction: column;
     line-height: 1;
-}
-.home-content h1 small{
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: var(--text-light);
-    letter-spacing: 4px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-}
-.home-content h1 span{
-    font-size: 5rem;
-    font-weight: 900;
-    color: var(--primary);
-    animation: glow 2s ease-in-out infinite alternate;
-}
-.home-content h1 span{
-    background: linear-gradient(
-        90deg,
-        #ff5fa2,
-        #ff8cc8,
-        #ff5fa2
-    );
-    background-size: 200% auto;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: gradientText 3s linear infinite;
 }
 .home-content h2{
     margin-top:15px;
@@ -256,16 +223,15 @@ nav a.active{
     align-items: center;
 }
 .home-img img{
-    width: 380px;
-    height: 380px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 8px solid white;
-    position: relative;
-    z-index: 2;
+    width:380px;
+    height:380px;
+    object-fit:cover;
+    border-radius:50%;
+    position:relative;
+    z-index:2;
+    border:5px solid rgba(255,179,245,.67);
     box-shadow:
-    0 0 20px rgba(255,105,180,.3),
-    0 0 50px rgba(255,105,180,.2);
+    0 20px 50px rgba(255,95,162,.25);
 }
 .home-img::before{
     content: "";
@@ -283,15 +249,7 @@ nav a.active{
     border-radius: 50%;
     border: 3px dashed #ffb3d9;
 }
-.home-img img{
-    width:380px;
-    height:380px;
-    object-fit:cover;
-    border-radius:50%;
-    border:5px solid rgba(255, 179, 245, 0.676);
-    box-shadow:
-    0 20px 50px rgba(255,95,162,.25);
-}
+
 .about{
     background: linear-gradient(
         180deg,
